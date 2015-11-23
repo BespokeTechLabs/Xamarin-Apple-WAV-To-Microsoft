@@ -78,6 +78,7 @@ namespace Enrichments.iOS
                 }
 
                 bw.Close(); // Finished loading the file into the new file.
+                fileStream.Close(); // Forgot to close the file stream.
             }
         }
 
